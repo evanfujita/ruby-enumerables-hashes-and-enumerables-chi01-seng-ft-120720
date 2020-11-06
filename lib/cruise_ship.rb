@@ -7,5 +7,8 @@
 # }
 
 def select_winner(passengers)
-
+  passengers.each do | suite, passenger |
+   if suite == suite_a && passenger.first == "A"
+     puts "#{passenger}"
+    end
 end
