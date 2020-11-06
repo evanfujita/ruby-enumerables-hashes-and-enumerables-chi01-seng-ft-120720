@@ -11,4 +11,5 @@ def select_winner(passengers)
    if suite == suite_a && passenger.first == "A"
      puts "#{passenger}"
     end
+  end
 end
